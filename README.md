@@ -22,6 +22,18 @@ composer require starrysea/arrays
 ## 用法
 
 ```php
+use Starrysea\Database\Expansion;
+
+class User
+{
+    use Expansion;
+
+    // 通知扩展这是账户模型
+    protected $account_model = true;
+}
+```
+
+```php
 use App\Models\User;
 
 class ExpansionGatherTest
