@@ -9,14 +9,14 @@
 您可以通过 composer 安装软件包：
 
 ``` bash
-composer require starrysea/arrays
+composer require starrysea/database
 ```
 ### Lumen
 
 您可以通过 composer 安装软件包：
 
 ``` bash
-composer require starrysea/arrays
+composer require starrysea/database
 ```
 
 ## 用法
